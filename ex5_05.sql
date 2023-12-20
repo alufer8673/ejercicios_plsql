@@ -1,0 +1,8 @@
+CREATE OR REPLACE PROCEDURE TAULA_MULT (m NUMBER)
+IS
+BEGIN
+  FOR i IN 1..10 LOOP
+    DBMS_OUTPUT.PUT_LINE(m || ' x ' || i || ' = ' || m*i);
+  END LOOP;
+END;
+/

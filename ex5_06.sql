@@ -1,0 +1,6 @@
+BEGIN
+  FOR i IN 1..10 LOOP
+    TAULA_MULT(i);
+  END LOOP;
+END;
+/
